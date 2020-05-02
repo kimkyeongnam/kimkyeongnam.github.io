@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>블로그</title>
+  
+  <subtitle>블로그</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://kimkyeongnam.github.io/"/>
+  <updated>2020-05-02T08:42:25.078Z</updated>
+  <id>https://kimkyeongnam.github.io/</id>
+  
+  <author>
+    <name>Kyeongnam Kim</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Preprocess</title>
+    <link href="https://kimkyeongnam.github.io/2020/04/14/EmojiRecommend-3/"/>
+    <id>https://kimkyeongnam.github.io/2020/04/14/EmojiRecommend-3/</id>
+    <published>2020-04-14T00:35:05.000Z</published>
+    <updated>2020-05-02T08:42:25.078Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>(1) Collect Data</title>
+    <link href="https://kimkyeongnam.github.io/2020/04/10/EmojiRecommend-2/"/>
+    <id>https://kimkyeongnam.github.io/2020/04/10/EmojiRecommend-2/</id>
+    <published>2020-04-10T05:09:11.000Z</published>
+    <updated>2020-05-02T08:42:25.077Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>Before writing, the process of this project will be numbered at the title.<br>No number will be given to the subsequent developments.</p><hr><h3 id="Find-Data-Source"><a href="#Find-Data-Source" class="headerlink" title="Find Data Source"></a>Find Data Source</h3><br><h3 id="Crawling"><a href="#Crawling" class="headerlink" title="Crawling"></a>Crawling</h3><p>We run crawling code in <a href="https://colab.research.google.com/" target="_blank" rel="noopener">Google Colab</a>.</p><p>You can see entire code <a href="https://drive.google.com/open?id=19pxMTYnIZsCL6V1E-i3NfmO_PA-hH7tp" target="_blank" rel="noopener">here</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h3&gt;&lt;p&gt;Before writing, the process of this projec
+      
+    
+    </summary>
+    
+    
+      <category term="Artificial Intelligence" scheme="https://kimkyeongnam.github.io/categories/Artificial-Intelligence/"/>
+    
+      <category term="EmojiRecommend" scheme="https://kimkyeongnam.github.io/categories/Artificial-Intelligence/EmojiRecommend/"/>
+    
+    
+      <category term="emoji" scheme="https://kimkyeongnam.github.io/tags/emoji/"/>
+    
+      <category term="ai" scheme="https://kimkyeongnam.github.io/tags/ai/"/>
+    
+      <category term="lstm" scheme="https://kimkyeongnam.github.io/tags/lstm/"/>
+    
+      <category term="nlp" scheme="https://kimkyeongnam.github.io/tags/nlp/"/>
+    
+      <category term="classification" scheme="https://kimkyeongnam.github.io/tags/classification/"/>
+    
+      <category term="recommend" scheme="https://kimkyeongnam.github.io/tags/recommend/"/>
+    
+      <category term="crawling" scheme="https://kimkyeongnam.github.io/tags/crawling/"/>
+    
+      <category term="colab" scheme="https://kimkyeongnam.github.io/tags/colab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Overview</title>
+    <link href="https://kimkyeongnam.github.io/2020/04/10/EmojiRecommend-1/"/>
+    <id>https://kimkyeongnam.github.io/2020/04/10/EmojiRecommend-1/</id>
+    <published>2020-04-09T23:13:18.000Z</published>
+    <updated>2020-05-02T08:42:25.072Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a term project for subject: Artificial intelligence, Sejong University.<br><br>Based on Twitter data, This AI classification apprehends a sentiment of input sentence and recommends emoji.<br><br>You can see this repository’s code: <a href="https://github.com/sejongresearch/EmojiRecommend" target="_blank" rel="noopener">https://github.com/sejongresearch/EmojiRecommend</a><br><br>My team completed this project, but we plan to update this project continuously.<br><br><br></p><h3 id="1-File-Structure-Diagram"><a href="#1-File-Structure-Diagram" class="headerlink" title="1. File Structure Diagram"></a>1. File Structure Diagram</h3><img src="/2020/04/10/EmojiRecommend-1/structure.png" class="" title="File Structure"><br><h3 id="2-Requirements"><a href="#2-Requirements" class="headerlink" title="2. Requirements"></a>2. Requirements</h3><p>(I’ll made requirement.txt later…)</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><figcaption><span>bash</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -r requirements.txt</span><br></pre></td></tr></table></figure></div><br><h3 id="3-Getting-Started"><a href="#3-Getting-Started" class="headerlink" title="3. Getting Started"></a>3. Getting Started</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><figcaption><span>bash</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/sejongresearch/EmojiRecommend.git</span><br><span class="line"><span class="built_in">cd</span> EmojiRecommend</span><br><span class="line">python server.py</span><br></pre></td></tr></table></figure></div><p>After that, Connect to <code>http://localhost:5000</code> or <code>http://127.0.0.1:5000</code><br><br></p><h3 id="4-License"><a href="#4-License" class="headerlink" title="4. License"></a>4. License</h3><p>MIT license</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><figcaption><span>MIT</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">MIT License</span><br><span class="line"></span><br><span class="line">Copyright (c) 2019 Kyeongnam Kim, Minju Kim, Ji-in  Yu, Juhyuk Lee, Yujin Hwang</span><br><span class="line"></span><br><span class="line">Permission is hereby granted, free of charge, to any person obtaining a copy</span><br><span class="line">of this software and associated documentation files (the &quot;Software&quot;), to deal</span><br><span class="line">in the Software without restriction, including without limitation the rights</span><br><span class="line">to use, copy, modify, merge, publish, distribute, sublicense, and&#x2F;or sell</span><br><span class="line">copies of the Software, and to permit persons to whom the Software is</span><br><span class="line">furnished to do so, subject to the following conditions:</span><br><span class="line"></span><br><span class="line">The above copyright notice and this permission notice shall be included in all</span><br><span class="line">copies or substantial portions of the Software.</span><br><span class="line"></span><br><span class="line">THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</span><br><span class="line">IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</span><br><span class="line">FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</span><br><span class="line">AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</span><br><span class="line">LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</span><br><span class="line">OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</span><br><span class="line">SOFTWARE.</span><br></pre></td></tr></table></figure></div><br><h3 id="5-Q-amp-A"><a href="#5-Q-amp-A" class="headerlink" title="5. Q&amp;A"></a>5. Q&amp;A</h3><p>If you want to ask question about this project,<br>Please contact us through <a href="https://github.com/sejongresearch/EmojiRecommend/issues" target="_blank" rel="noopener">this repository’s issue</a>.<br>The comment is also okay, but I think it’s better to leave issue because many people will come to the issue more. :-)<br><br></p><h3 id="6-Contributor"><a href="#6-Contributor" class="headerlink" title="6. Contributor"></a>6. Contributor</h3><table><thead><tr><th align="center">Name</th><th align="center">Major</th><th align="center">Github</th><th align="center">Email</th></tr></thead><tbody><tr><td align="center">Kyeongnam Kim</td><td align="center">Software Department</td><td align="center"><a href="https://github.com/kimkyeongnam" target="_blank" rel="noopener">@kimkyeongnam</a></td><td align="center"><a href="kkyy0126@naver.com">kkyy0126@naver.com</a></td></tr><tr><td align="center">Minju Kim</td><td align="center">Software Department</td><td align="center"><a href="https://github.com/min942773" target="_blank" rel="noopener">@min942773</a></td><td align="center"><a href="mailto:min942773@gmail.com">min942773@gmail.com</a></td></tr><tr><td align="center">Jiin You</td><td align="center">DigitalContents Department</td><td align="center"><a href="https://github.com/jiin0217" target="_blank" rel="noopener">@jiin0217</a></td><td align="center"><a href="mailto:yji9602@naver.com">yji9602@naver.com</a></td></tr><tr><td align="center">Joohyuk Lee</td><td align="center">Software Department</td><td align="center"><a href="https://github.com/zero5two4" target="_blank" rel="noopener">@zero5two4</a></td><td align="center"><a href="mailto:zero5.two4@gmail.com">zero5.two4@gmail.com</a></td></tr><tr><td align="center">Yujin Hwang</td><td align="center">Intelligence Electrical<br>Engineering Division<br>: Unmanned<br>mobile<br>engineering</td><td align="center"><a href="https://github.com/hyj378" target="_blank" rel="noopener">@hyj378</a></td><td align="center"><a href="mailto:yujine92@gmail.com">yujine92@gmail.com</a></td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This is a term project for subject: Artificial intelligence, Sejong University.&lt;br&gt;&lt;br&gt;Based on Twitter data, This AI classification appr
+      
+    
+    </summary>
+    
+    
+      <category term="Artificial Intelligence" scheme="https://kimkyeongnam.github.io/categories/Artificial-Intelligence/"/>
+    
+      <category term="EmojiRecommend" scheme="https://kimkyeongnam.github.io/categories/Artificial-Intelligence/EmojiRecommend/"/>
+    
+    
+      <category term="emoji" scheme="https://kimkyeongnam.github.io/tags/emoji/"/>
+    
+      <category term="ai" scheme="https://kimkyeongnam.github.io/tags/ai/"/>
+    
+      <category term="lstm" scheme="https://kimkyeongnam.github.io/tags/lstm/"/>
+    
+      <category term="nlp" scheme="https://kimkyeongnam.github.io/tags/nlp/"/>
+    
+      <category term="classification" scheme="https://kimkyeongnam.github.io/tags/classification/"/>
+    
+      <category term="recommend" scheme="https://kimkyeongnam.github.io/tags/recommend/"/>
+    
+  </entry>
+  
+</feed>
